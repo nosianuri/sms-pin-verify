@@ -6,7 +6,7 @@ import France from '../../assets/france_ntx7mf.png';
 import Russia from '../../assets/Russia_i6mhzq.png';
 import Bangladesh from '../../assets/bangladesh_b1db8z.png';
 import Brazil from '../../assets/brazil_blkhvy.png';
-import Mozambique from '../../assets/Morocco_hmib3a.png';
+import Mozambique from '../../assets/mozambue_doizgn.png';
 import SouthAfrica from '../../assets/South_Africa_j99z8p.png';
 import Venezuela from '../../assets/Venezuela_gqx58r.png';
 import Swaziland from '../../assets/Swaziland_zb9qnf.png';
@@ -38,9 +38,9 @@ import Angola from '../../assets/Angola_kqqbb7.png';
 import Italy from '../../assets/Italy_s9e8f3.png';
 import Colombia from '../../assets/Colombia_zfqijj.png';
 import Germany from '../../assets/Germany_wg6vps.png';
-import Botswana from '../../assets/Nigeria_bt4bs2.png';
+import Botswana from '../../assets/Botswana_hongax.png';
 import Sweden from '../../assets/usa_unefee.png';
-import Denmark from '../../assets/usa_unefee.png';
+import Denmark from '../../assets/blank.gif';
 import Netherland from '../../assets/usa_unefee.png';
 import Ecuador from '../../assets/usa_unefee.png';
 import Austria from '../../assets/usa_unefee.png';
@@ -262,7 +262,7 @@ const Country = () => {
         },
         {
             _id: 8,
-            name: 'SouthAfrica',
+            name: 'South Africa',
             link: '/motorcycle-insurance',
             img: SouthAfrica
         },
@@ -273,165 +273,171 @@ const Country = () => {
             img: Venezuela
         },
         {
-            _id: 11,
+            _id: 10,
             name: 'Swaziland',
             link: '/finalexpense-insurance',
             img: Swaziland
         },
         {
-            _id: 12,
+            _id: 11,
             name: 'Pakistan',
             link: '/finalexpense-insurance',
             img: Pakistan
         },
         {
-            _id: 13,
+            _id: 12,
             name: 'Malawi',
             link: '/finalexpense-insurance',
             img: Malawi
         },
         {
-            _id: 14,
+            _id: 13,
             name: 'Nigeria',
             link: '/finalexpense-insurance',
             img: Nigeria
         },
         {
-            _id: 15,
+            _id: 14,
             name: 'China',
             link: '/finalexpense-insurance',
             img: China
         },
         {
-            _id: 17,
+            _id: 15,
             name: 'Lesotho',
             link: '/finalexpense-insurance',
             img: Lesotho
         },
         {
-            _id: 18,
+            _id: 16,
             name: 'Zambia',
             link: '/finalexpense-insurance',
             img: Zambia
         },
         {
-            _id: 19,
+            _id: 17,
             name: 'Egypt',
             link: '/finalexpense-insurance',
             img: Egypt
         },
         {
-            _id: 20,
+            _id: 18,
             name: 'Peru',
             link: '/finalexpense-insurance',
             img: Peru
         },
         {
-            _id: 21,
+            _id: 19,
             name: 'Mexico',
             link: '/finalexpense-insurance',
             img: Mexico
         },
         {
-            _id: 22,
+            _id: 20,
             name: 'Spain',
             link: '/finalexpense-insurance',
             img: Spain
         },
         {
-            _id: 23,
+            _id: 21,
             name: 'Ghana',
             link: '/finalexpense-insurance',
             img: Ghana
         },
         {
-            _id: 24,
+            _id: 22,
             name: 'Morocco',
             link: '/finalexpense-insurance',
             img: Morocco
         },
         {
-            _id: 25,
+            _id: 23,
             name: 'Gabon',
             link: '/finalexpense-insurance',
             img: Gabon
         },
         {
-            _id: 26,
+            _id: 24,
             name: 'Algeria',
             link: '/finalexpense-insurance',
             img: Algeria
         },
         {
-            _id: 27,
+            _id: 25,
             name: 'Myanmar',
             link: '/finalexpense-insurance',
             img: Myanmar
         },
         {
-            _id: 28,
+            _id: 26,
             name: 'Argentina',
             link: '/finalexpense-insurance',
             img: Argentina
         },
         {
-            _id: 29,
+            _id: 27,
             name: 'Romania',
             link: '/finalexpense-insurance',
             img: Romania
         },
         {
-            _id: 30,
+            _id: 28,
             name: 'Ukraine',
             link: '/finalexpense-insurance',
             img: Ukraine
         },
         {
-            _id: 31,
+            _id: 29,
             name: 'UnitedKingdom',
             link: '/finalexpense-insurance',
             img: UnitedKingdom
         },
         {
-            _id: 32,
+            _id: 30,
             name: 'Vietnam',
             link: '/finalexpense-insurance',
             img: Vietnam
         },
         {
-            _id: 33,
+            _id: 31,
             name: 'Canada',
             link: '/finalexpense-insurance',
             img: Canada
         },
         {
-            _id: 34,
+            _id: 32,
             name: 'Tanzania',
             link: '/finalexpense-insurance',
             img: Tanzania
         },
         {
-            _id: 35,
+            _id: 33,
             name: 'Namibia',
             link: '/finalexpense-insurance',
             img: Namibia
         },
         {
-            _id: 36,
+            _id: 34,
             name: 'Switzerland',
             link: '/finalexpense-insurance',
             img: Switzerland
         },
         {
-            _id: 37,
+            _id: 35,
             name: 'Angola',
             link: '/finalexpense-insurance',
             img: Angola
         },
         {
-            _id: 38,
+            _id: 37,
             name: 'Italy',
-            link: '/finalexpense-insurance',
+            link: '/',
+            img: Italy
+        },
+        {
+            _id: 38,
+            name: 'Colombia',
+            link: '/',
             img: Italy
         },
         {
@@ -460,7 +466,7 @@ const Country = () => {
         },
         {
             _id: 43,
-            name: 'Netherland',
+            name: 'Netherlands',
             link: '/finalexpense-insurance',
             img: Netherland
         },
@@ -478,7 +484,7 @@ const Country = () => {
         },
         {
             _id: 46,
-            name: 'Czech',
+            name: 'Czech Republic',
             link: '/finalexpense-insurance',
             img: Czech
         },
@@ -538,7 +544,7 @@ const Country = () => {
         },
         {
             _id: 56,
-            name: 'Bosnia',
+            name: 'Bosnia and He',
             link: '/finalexpense-insurance',
             img: Bosnia
         },
@@ -615,12 +621,6 @@ const Country = () => {
             img: Latvia
         },
         {
-            _id: 69,
-            name: 'Colombia',
-            link: '/finalexpense-insurance',
-            img: Colombia
-        },
-        {
             _id: 70,
             name: 'Estonia',
             link: '/finalexpense-insurance',
@@ -670,7 +670,7 @@ const Country = () => {
         },
         {
             _id: 78,
-            name: 'Holysee',
+            name: 'Holy see',
             link: '/finalexpense-insurance',
             img: Holysee
         },
@@ -682,7 +682,7 @@ const Country = () => {
         },
         {
             _id: 80,
-            name: 'Newzealand',
+            name: 'New zealand',
             link: '/finalexpense-insurance',
             img: Newzealand
         },
@@ -713,282 +713,804 @@ const Country = () => {
         {
             _id: 85,
             name: 'Hongkong',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Hongkong
         },
         {
             _id: 86,
             name: 'Macao',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Macao
         },
         {
             _id: 87,
             name: 'Taiwan',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Taiwan
         },
         {
             _id: 88,
             name: 'Quatar',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Quatar
         },
         {
             _id: 89,
             name: 'Singapore',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Singapore
         },
         {
-            _id: 91,
+            _id: 90,
             name: 'Uae',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Uae
         },
         {
-            _id: 92,
+            _id: 91,
             name: 'Kazakhstan',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Kazakhstan
         },
         {
-            _id: 93,
+            _id: 92,
             name: 'Malaysia',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Malaysia
         },
         {
-            _id: 94,
+            _id: 93,
             name: 'Philippines',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Philippines
         },
         {
-            _id: 95,
+            _id: 94,
             name: 'Turkey',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Turkey
         },
         {
-            _id: 96,
+            _id: 95,
             name: 'Uzbekistan',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Uzbekistan
         },
         {
-            _id: 97,
+            _id: 96,
             name: 'Srilanka',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Srilanka
         },
         {
-            _id: 98,
+            _id: 97,
             name: 'Cambodia',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Cambodia
         },
         {
-            _id: 99,
+            _id: 98,
             name: 'NorthKorea',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: NorthKorea
         },
         {
-            _id: 100,
+            _id: 99,
             name: 'Indonesia',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Indonesia
         },
         {
-            _id: 102,
+            _id: 100,
             name: 'Iran',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Iran
         },
         {
-            _id: 103,
+            _id: 101,
             name: 'Thailand',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Thailand
         },
         {
-            _id: 104,
+            _id: 102,
             name: 'SouthKorea',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: SouthKorea
         },
         {
-            _id: 105,
+            _id: 103,
             name: 'Iraq ',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Iraq 
         },
         {
-            _id: 106,
+            _id: 104,
             name: 'Afghanistan',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Afghanistan
         },
         {
-            _id: 107,
+            _id: 105,
             name: 'Saudiarabia',
             link: '/finalexpense-insurance',
             img: Saudiarabia
         },
         {
-            _id: 108,
+            _id: 106,
             name: 'Yemen',
             link: '/finalexpense-insurance',
             img: Yemen
         },
         {
-            _id: 109,
+            _id: 107,
             name: 'Nepal',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Nepal
         },
         {
-            _id: 110,
+            _id: 108,
             name: 'Syria',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Syria
         },
         {
-            _id: 111,
+            _id: 109,
             name: 'Jordan',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Jordan
         },
         {
-            _id: 112,
+            _id: 110,
             name: 'Azerbaijan',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Azerbaijan
         },
         {
-            _id: 113,
+            _id: 111,
             name: 'Tajikistan',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Tajikistan
         },
         {
-            _id: 114,
+            _id: 112,
             name: 'Laos',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Laos
         },
         {
-            _id: 115,
+            _id: 113,
             name: 'Lebanon',
             link: '/finalexpense-insurance',
             img: Lebanon
         },
         {
-            _id: 116,
+            _id: 114,
             name: 'Kyrgyzstan',
             link: '/finalexpense-insurance',
             img: Kyrgyzstan
         },
         {
-            _id: 117,
+            _id: 115,
             name: 'Turkmenistan',
             link: '/finalexpense-insurance',
             img: Turkmenistan
         },
         {
-            _id: 118,
+            _id: 116,
             name: 'Oman',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Oman
         },
         {
-            _id: 119,
-            name: 'Palestaine',
-            link: '/finalexpense-insurance',
+            _id: 117,
+            name: 'State of Palestaine',
+            link: '/',
             img: Palestaine
         },
         {
-            _id: 120,
+            _id: 118,
             name: 'Kuwait',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Kuwait
         },
         {
-            _id: 121,
+            _id: 119,
             name: 'Georgia',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Georgia
         },
         {
-            _id: 122,
+            _id: 120,
             name: 'Mongolia',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Mongolia
         },
         {
-            _id: 123,
+            _id: 121,
             name: 'Armenia',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Armenia
         },
         {
-            _id: 124,
+            _id: 122,
             name: 'Bahrain',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Bahrain
         },
         {
-            _id: 125,
-            name: 'TimorLeste',
-            link: '/finalexpense-insurance',
+            _id: 123,
+            name: 'Timor-Leste',
+            link: '/',
             img: TimorLeste
         },
         {
-            _id: 125,
+            _id: 124,
             name: 'Cyprus',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Cyprus
         },
         {
             _id: 125,
             name: 'Bhutan',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Bhutan
         },
         {
-            _id: 125,
+            _id: 126,
             name: 'Maldives',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Maldives
         },
         {
-            _id: 125,
+            _id: 127,
             name: 'Brunei',
             link: '/finalexpense-insurance',
             img: Brunei
         },
         {
-            _id: 125,
+            _id: 128,
             name: 'Chile',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Chile
         },
         {
-            _id: 125,
+            _id: 129,
             name: 'Guatemala',
-            link: '/finalexpense-insurance',
+            link: '/',
             img: Guatemala
         },
         {
-            _id: 125,
+            _id: 130,
             name: 'Bolivia',
+            link: '/',
+            img: Bolivia
+        },
+        {
+            _id: 131,
+            name: 'Haiti',
             link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 132,
+            name: 'Dominicana',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 133,
+            name: 'Ethiopia',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 134,
+            name: 'Honduras',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 135,
+            name: 'Nicaragua',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 136,
+            name: 'El Salvador',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 137,
+            name: 'Costarica',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 138,
+            name: 'Panama',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 139,
+            name: 'Uruguay',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 140,
+            name: 'Jamaica',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 141,
+            name: 'Trinidad and T',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 142,
+            name: 'Guyana',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 143,
+            name: 'Suriname',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 144,
+            name: 'Belize',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 145,
+            name: 'Bahamas',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 146,
+            name: 'Barbados',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 147,
+            name: 'Saintlucia',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 148,
+            name: 'Grenada',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 149,
+            name: 'Saintvincentan',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 150,
+            name: 'Antiguaandbar',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 151,
+            name: 'Dominica',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 152,
+            name: 'Saintkittsandn',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 153,
+            name: 'Papuanewguini',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 154,
+            name: 'Solomonisland',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 155,
+            name: 'Micronesia',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 156,
+            name: 'Vanuatu',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 157,
+            name: 'Samoa',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 158,
+            name: 'Kiribati',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 159,
+            name: 'Tonga',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 160,
+            name: 'Marshall Island',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 161,
+            name: 'Palau',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 162,
+            name: 'Tuvalu',
+            link: '/',
+            img: Bolivia
+        },
+        {
+            _id: 163,
+            name: 'Nauru',
+            link: '/',
+            img: Bolivia
+        },
+        {
+            _id: 164,
+            name: 'Drcongo',
+            link: '/',
+            img: Bolivia
+        },
+        {
+            _id: 165,
+            name: 'Kenya',
+            link: '/',
+            img: Bolivia
+        },
+        {
+            _id: 166,
+            name: 'Uganda',
+            link: '/',
+            img: Bolivia
+        },
+        {
+            _id: 167,
+            name: 'Sudan',
+            link: '/',
+            img: Bolivia
+        },
+        {
+            _id: 168,
+            name: 'Madagascar',
+            link: '/',
+            img: Bolivia
+        },
+        {
+            _id: 169,
+            name: 'Cameroon',
+            link: '/',
+            img: Bolivia
+        },
+        {
+            _id: 170,
+            name: 'Cote dlvoire',
+            link: '/',
+            img: Bolivia
+        },
+        {
+            _id: 171,
+            name: 'Niger',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 172,
+            name: 'Burkinafaso',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 173,
+            name: 'Mali',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 174,
+            name: 'Senegal',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 175,
+            name: 'Chad',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 176,
+            name: 'Somalia',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 177,
+            name: 'Zimbabwe',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 178,
+            name: 'Guinea',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 179,
+            name: 'Rwanda',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 180,
+            name: 'Benin',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 181,
+            name: 'Burundi',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 182,
+            name: 'Tunisia',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 183,
+            name: 'Southsudan',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 184,
+            name: 'Togo',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 185,
+            name: 'Sierraleone',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 186,
+            name: 'Libya',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 187,
+            name: 'Congo',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 188,
+            name: 'Liberia',
+            link: '/',
+            img: Bolivia
+        },
+        {
+            _id: 189,
+            name: 'Central African',
+            link: '/',
+            img: Bolivia
+        },
+        {
+            _id: 190,
+            name: 'Mauritania',
+            link: '/',
+            img: Bolivia
+        },
+        {
+            _id: 191,
+            name: 'Eritrea',
+            link: '/',
+            img: Bolivia
+        },
+        {
+            _id: 192,
+            name: 'Gambia',
+            link: '/',
+            img: Bolivia
+        },
+        {
+            _id: 193,
+            name: 'Guineabissau',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 194,
+            name: 'Equatorialguin',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 195,
+            name: 'Mauritius',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 196,
+            name: 'Eswatini',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 197,
+            name: 'Djibouti',
+            link: '/finalexpense-insurance',
+            img: Bolivia
+        },
+        {
+            _id: 198,
+            name: 'Comoros',
+            link: '/',
+            img: Bolivia
+        },
+        {
+            _id: 199,
+            name: 'Cabo Verde',
+            link: '/',
+            img: Bolivia
+        },
+        {
+            _id: 200,
+            name: 'Saotomeandpn',
+            link: '/',
+            img: Bolivia
+        },
+        {
+            _id: 201,
+            name: 'Seychelles',
+            link: '/',
+            img: Bolivia
+        },
+        {
+            _id: 202,
+            name: 'Montserrat',
+            link: '/',
+            img: Bolivia
+        },
+        {
+            _id: 203,
+            name: 'Newcaledonia',
+            link: '/',
+            img: Bolivia
+        },
+        {
+            _id: 204,
+            name: 'Puertorico',
+            link: '/',
+            img: Bolivia
+        },
+        {
+            _id: 205,
+            name: 'Tit',
+            link: '/',
+            img: Bolivia
+        },
+        {
+            _id: 206,
+            name: 'Turksandcaico',
+            link: '/',
+            img: Bolivia
+        },
+        {
+            _id: 207,
+            name: 'Virginislands',
+            link: '/',
+            img: Bolivia
+        },
+        {
+            _id: 208,
+            name: 'Reunion',
+            link: '/',
+            img: Bolivia
+        },
+        {
+            _id: 209,
+            name: 'Bih',
+            link: '/',
+            img: Bolivia
+        },
+        {
+            _id: 210,
+            name: 'Capeverde',
+            link: '/',
+            img: Bolivia
+        },
+        {
+            _id: 211,
+            name: 'Guadeloupe',
+            link: '/',
+            img: Bolivia
+        },
+        {
+            _id: 212,
+            name: 'Frenchguiana',
+            link: '/',
+            img: Bolivia
+        },
+        {
+            _id: 213,
+            name: 'Easttimor',
+            link: '/',
+            img: Bolivia
+        },
+        {
+            _id: 214,
+            name: 'Ivorycoast',
+            link: '/',
+            img: Bolivia
+        },
+        {
+            _id: 215,
+            name: 'Anguilla',
+            link: '/',
+            img: Bolivia
+        },
+        {
+            _id: 216,
+            name: 'Aruba',
+            link: '/',
+            img: Bolivia
+        },
+        {
+            _id: 217,
+            name: 'Caymanislands',
+            link: '/',
             img: Bolivia
         },
     ]
   return (
-    <div className='grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 lg:gap-6 country'>
+    <div className='grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 lg:gap-3 country'>
         {
             products.map(product => <CountryCard
              key={product._id}

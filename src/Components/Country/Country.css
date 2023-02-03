@@ -1,5 +1,6 @@
 .country{
-    height: 500px;
+    height: 1000px;
+    padding-right: 10px;
     overflow: hidden;
     overflow-y: scroll;
 }

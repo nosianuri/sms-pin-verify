@@ -3,8 +3,10 @@ import Mainbody from '../../Components/Mainbody/Mainbody'
 
 const Home = () => {
   return (
-    <div className='my-16'>
+    <div className='bg-[#f8f9fa]'>
+    <div className=' mx-auto px-5 py-16'>
         <Mainbody />
+    </div>
     </div>
   )
 }

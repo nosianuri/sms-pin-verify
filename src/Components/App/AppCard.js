@@ -10,17 +10,13 @@ const AppCard = (props) => {
             <p className='text-sm hover:text-[#BD902D]'>{name}</p>
           </a>
           <div className='flex justify-center items-center'>
-          <i class="fa-solid fa-star text-[#e0a423] border-1 border-gray-400 pr-2"></i>
-          <a href="/">
-            <div className='border-2 border-gray-300 rounded px-2' >{price}</div>
-          </a>
+            <i class="fa-solid fa-star text-[#e0a423] border-1 border-gray-400 pr-2"></i>
+            <a href="/">
+              <div className='border-2 border-gray-300 rounded px-2' >${price}</div>
+            </a>
           </div>
-          
-          
         </div>
       </div>
-
-
     </div>
   )
 }
