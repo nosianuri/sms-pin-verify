@@ -5,7 +5,7 @@ import Rightbody from './Rightbody'
 
 const Mainbody = () => {
   return (
-    <div className='mainbody '>
+    <div className='mainbody space-x-10'>
         <LeftBody />
         <MiddleBody />
         <Rightbody />

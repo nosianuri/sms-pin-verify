@@ -1,4 +1,10 @@
 import React, { useState } from 'react'
+import MainTab from '../Tabs/MainTab';
+import Manual from '../Tabs/Manual';
+import NewsTab from '../Tabs/NewsTab';
+import Referrals from '../Tabs/Referrals';
+import RulesTab from '../Tabs/RulesTab';
+import SupportTab from '../Tabs/SupportTab';
 import './MainBody.css';
 
 const MiddleBody = () => {
@@ -22,17 +28,36 @@ const MiddleBody = () => {
                 >
                     News
                 </button>
+                
                 <button
                     className={toggleState === 3 ? "tabs active-tabs" : "tabs"}
                     onClick={() => toggleTab(3)}
                 >
-                    Support
+                    Manual
                 </button>
                 <button
                     className={toggleState === 4 ? "tabs active-tabs" : "tabs"}
                     onClick={() => toggleTab(4)}
                 >
-                    Request for new service
+                    Rules
+                </button>
+                <button
+                    className={toggleState === 5 ? "tabs active-tabs" : "tabs"}
+                    onClick={() => toggleTab(5)}
+                >
+                    Referrals
+                </button>
+                <button
+                    className={toggleState === 6 ? "tabs active-tabs" : "tabs"}
+                    onClick={() => toggleTab(6)}
+                >
+                    Support
+                </button>
+                <button
+                    className={toggleState === 7 ? "tabs active-tabs" : "tabs"}
+                    onClick={() => toggleTab(7)}
+                >
+                    Free
                 </button>
             </div>
 
@@ -40,49 +65,60 @@ const MiddleBody = () => {
                 <div
                     className={toggleState === 1 ? "content  active-content" : "content"}
                 >
-                    <h2>Smspinverify.com is a service providing a phone number you can send any SMS on and get a text of it.</h2>
-                   
-                    <p>
+                <MainTab />
+                    {/* <h2>Smspinverify.com is a service providing a phone number you can send any SMS on and get a text of it.</h2>
+                   <div className='pl-4 my-5'>
+                   <p>
                     1.Just choose your country, select app, and you will get your number,
                     </p>
                     <p>2.Send code from app and you will receive your OTP.
                     </p>
-                    <p>Its easy and fast.</p>
-                    <div>
+                   </div> */}
+                    
+                    {/* <p>Its easy and fast.</p>
+                    <div className='text-center mt-5'>
                         <h2>Contact us</h2>
                         <p>Whatsapp: <i class="fa-brands fa-whatsapp"></i> +442070971402</p>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div
                     className={toggleState === 2 ? "content  active-content" : "content"}
                 >
-                    <h2>Content 2</h2>
-                    <hr />
+                    <NewsTab />
+                    {/* <hr />
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
                         voluptatum qui adipisci.
-                    </p>
+                    </p> */}
                 </div>
 
                 <div
                     className={toggleState === 3 ? "content  active-content" : "content"}
                 >
-                    <h2>Content 3</h2>
-                    <hr />
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos sed
-                        nostrum rerum laudantium totam unde adipisci incidunt modi alias!
-                        Accusamus in quia odit aspernatur provident et ad vel distinctio
-                        recusandae totam quidem repudiandae omnis veritatis nostrum
-                        laboriosam architecto optio rem, dignissimos voluptatum beatae
-                        aperiam voluptatem atque. Beatae rerum dolores sunt.
-                    </p>
+                    <Manual />
                 </div>
                 <div
                     className={toggleState === 4 ? "content  active-content" : "content"}
                 >
-                    <h2>Content 4</h2>
+                    <RulesTab />
+                </div>
+                <div
+                    className={toggleState === 5 ? "content  active-content" : "content"}
+                >
+                    <h2>Referrals</h2>
+                    <hr />
+                   <Referrals />
+                </div>
+                <div
+                    className={toggleState === 6 ? "content  active-content" : "content"}
+                >
+                    <SupportTab />
+                </div>
+                <div
+                    className={toggleState === 7 ? "content  active-content" : "content"}
+                >
+                    <h2>Content 7</h2>
                     <hr />
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos sed

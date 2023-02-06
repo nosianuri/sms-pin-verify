@@ -4,7 +4,7 @@ import Mainbody from '../../Components/Mainbody/Mainbody'
 const Home = () => {
   return (
     <div className='bg-[#f8f9fa]'>
-    <div className=' mx-auto px-5 py-16'>
+    <div className=' mx-auto px-8 py-8'>
         <Mainbody />
     </div>
     </div>

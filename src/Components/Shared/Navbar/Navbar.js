@@ -11,8 +11,8 @@ const Navbar = () => {
     <li><Link to="/review">Blog</Link></li>
     <li><Link to="/contact">Contact Us</Link></li>
     <li><Link to="/about">FAQs</Link></li>
-    <li className=" bg-[#5bc0de]"> <Link to="/login">Login</Link></li>
-    <li className=" bg-[#5bc0de]"> <Link to="/login">Registration</Link></li>
+    <li className=" bg-[#4DAFFF] text-white py-1"> <Link to="/login">Login</Link></li>
+    <li className=" bg-[#5bc0de] text-white py-1"> <Link to="/login">Registration</Link></li>
   </>
 
   return (
