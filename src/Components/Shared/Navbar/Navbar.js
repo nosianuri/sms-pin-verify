@@ -7,12 +7,12 @@ const Navbar = () => {
     
   const menuItems = <>
     <li><Link to="/">Home</Link></li>
-    <li><Link to="/appointment">API</Link></li>
-    <li><Link to="/review">Blog</Link></li>
+    <li><Link to="/api">API</Link></li>
+    <li><Link to="/blog">Blog</Link></li>
     <li><Link to="/contact">Contact Us</Link></li>
-    <li><Link to="/about">FAQs</Link></li>
+    <li><Link to="/faqs">FAQs</Link></li>
     <li className=" bg-[#4DAFFF] text-white py-1"> <Link to="/login">Login</Link></li>
-    <li className=" bg-[#5bc0de] text-white py-1"> <Link to="/login">Registration</Link></li>
+    <li className=" bg-[#5bc0de] text-white py-1"> <Link to="/registration">Registration</Link></li>
   </>
 
   return (
