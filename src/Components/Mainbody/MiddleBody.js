@@ -15,7 +15,7 @@ const MiddleBody = () => {
         setToggleState(index);
     };
   return (
-    <div className="right-container">
+    <div className="right-container ">
             <div className="bloc-tabs">
                 <button
                     className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
