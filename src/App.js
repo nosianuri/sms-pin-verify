@@ -4,11 +4,13 @@ import Footer from './Components/Shared/Footer/Footer';
 import Navbar from './Components/Shared/Navbar/Navbar';
 import Api from './Pages/Api/Api';
 import Blog from './Pages/Blog/Blog';
+import Codes from './Pages/Codes/Codes';
 import Contact from './Pages/Contact/Contact';
 import Faq from './Pages/Faq/Faq';
 import Home from './Pages/Home/Home';
 import Login from './Pages/Login/Login';
 import Privacy from './Pages/Privacy/Privacy';
+import Reacherge from './Pages/Recharge/Reacherge';
 import Regestration from './Pages/Regestration/Regestration';
 import Terms from './Pages/Terms/Terms';
 
@@ -21,6 +23,8 @@ function App() {
      <Route path="/api" element={<Api />} />
      <Route path="/faqs" element={<Faq />} />
      <Route path="/blog" element={<Blog />} />
+     <Route path="/codes" element={<Codes />} />
+     <Route path="/recharge" element={<Reacherge />} />
      <Route path="/contact" element={<Contact />} />
      <Route path="/privacy" element={<Privacy />} />
      <Route path="/terms" element={<Terms />} />

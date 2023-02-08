@@ -2,10 +2,10 @@ import React from 'react'
 
 const MainTab = () => {
   return (
-    <div className='px-5'>
-        <h2 className='text-center font-semibold'>Virtual numbers for SMS receiving online and SMS verification bypass</h2>
+    <div className=''>
+        <h2 className='text-center font-semibold mb-2'>Virtual numbers for SMS receiving online and SMS verification bypass</h2>
         <p>When registering on social networks, messengers and on other sites, an SMS verification of account is required. 5SIM provides the opportunity to bypass SMS verification procedure with the help of a temporary virtual phone number without using the personal one. By purchasing virtual numbers for SMS receiving and for activating any site or app, you will register many profiles on websites by receiving a confirmation code online.</p>
-        <p>By using the SMS verification service 5SIM:</p>
+        <p className='mt-1'>By using the SMS verification service 5SIM:</p>
         <ul className='ul-article'>
             <li>You can get SMS online 24/7. This is a fully automated service: the receipt of a text message with a verification code happens instantaneously.</li>
             <li>Receive an unlimited quantity of messages from the selected site or app. Herewith, the cost of one SMS number starts from 0,014$, and you’ll not have to pay monthly rates of mobile operators.</li>
@@ -32,14 +32,14 @@ const MainTab = () => {
             <li>Anyone who needs to create a second account on Amazon, Discord, Naver, Instagram, WhatsApp, Google, Telegram etc.</li>
         </ul>
         <p>Now you know that there is no need to have a SIM card in your mobile phone, you only need access to Internet.</p>
-        <p>How to buy virtual number and get SMS verification code?</p>
-        <p>If you want buy private phone numbers to get SMS online, you need to login or register</p>
-        <ol className='pl-3'>
+        <p className='mt-2'>How to buy virtual number and get SMS verification code?</p>
+        <p className='mt-1'>If you want buy private phone numbers to get SMS online, you need to login or register</p>
+        <ol className='pl-10'>
             <li> From the list provided, select the country, operator. In the case of choosing the operator "any", you will get a random virtual number from any provider from the list.</li>
             <li> Select the desired service (the website from which you will receive an SMS to the number) and click on the "Buy" button.</li>
             <li> Receive SMS online and a confirmation code. Purchase your needed quantity of numbers: we provide our services to both wholesale and retail clients. Also, for those who are going to use this type of service for the first time, we offer to try out 5SIM, by using Free online phone numbers for testing.</li>
         </ol>
-        <p>Contacts:</p>
+        <p className='mt-2'>Contacts:</p>
         <ul className='ul-article'>
             <li>Help and support</li>
             <li>Telegram channel new numbers notifications @new_numbers_5sim</li>

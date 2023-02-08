@@ -3,16 +3,16 @@ import React from 'react'
 const Referrals = () => {
   return (
     <div>
-        <h2>Referrals</h2>
+        <h2 className='font-semibold text-center'>Referrals</h2>
         <p>If you are a software developer to register and fill accounts in different systems, then you have opportunity to earn with each order, from customer lead to our service.</p>
-        <p>You need to Login or Register, fill in and send questionnaire by ticket system. We will contact you to discuss further details of cooperation after reviewing the questionnaire.</p>
-        <p>Questionnaire for software developer:</p>
-        <ol>
+        <p className='mt-1'>You need to Login or Register, fill in and send questionnaire by ticket system. We will contact you to discuss further details of cooperation after reviewing the questionnaire.</p>
+        <p className='mt-2'>Questionnaire for software developer:</p>
+        <ol className='pl-10'>
             <li>Name of the program</li>
             <li>Program web page</li>
             <li>Describe features of the program</li>
         </ol>
-        <p>Rewards:</p>
+        <p className='mt-2'>Rewards:</p>
         <ul>
             <li>VK.com - 0.25rub.</li>
             <li>Avito - 0.05rub.</li>

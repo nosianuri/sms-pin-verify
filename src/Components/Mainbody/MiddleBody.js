@@ -107,8 +107,7 @@ const MiddleBody = () => {
                 <div
                     className={toggleState === 5 ? "content  active-content" : "content"}
                 >
-                    <h2>Referrals</h2>
-                    <hr />
+                    
                    <Referrals />
                 </div>
                 <div

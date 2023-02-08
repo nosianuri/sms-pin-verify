@@ -1512,7 +1512,7 @@ const Country = () => {
     const [searchCountry, setSearchCountry] = useState("");
   return (
     <div className='border-2 border-gray-300 p-2 rounded'>
-    <input className='px-2 rounded w-full py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#BD902D] border-2 border-[#BD902D]' type="text" placeholder='Search for a Country' onChange={(event) => {setSearchCountry(event.target.value)}} />
+    <input className='px-2 rounded w-full py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#5bc0de] border-2 border-[#5bc0de]' type="text" placeholder='Search for a Country' onChange={(event) => {setSearchCountry(event.target.value)}} />
     <div className=' my-4'>
     <div className='grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 lg:gap-3 country'>
         {

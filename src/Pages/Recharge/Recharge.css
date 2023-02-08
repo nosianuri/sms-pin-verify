@@ -1,0 +1,126 @@
+.user-container {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg,
+        rgb(141, 196, 214) 0%,
+        rgb(219, 214, 214) 94%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 8rem;
+  }
+  
+  /* .user-table{
+      border: 1px solid white;
+      color: white;
+      padding: 50px;
+      
+  } */
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+    font-size: 20px;
+    color: rgb(10, 10, 10);
+  }
+  
+  th {
+    background-color: #5bc0de;
+  }
+  
+  td {
+    background-color: #78d0ea;
+  }
+  
+  form {
+    display: flex;
+    gap: 5px;
+  }
+  
+  form td:last-child {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  h2 {
+    color: white;
+  }
+  
+  .adduser {
+    margin-top: 30px;
+  }
+  
+  .add-button {
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 10px;
+    border: 1px solid white;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  .pagination {
+    margin-top: 10px;
+  }
+  
+  .pagination .selected {
+    background-color: rgb(80, 80, 238);
+    color: white;
+  }
+  
+  .pagination button {
+    margin-right: 30px;
+    background-color: white;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  
+  input {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  
+  
+  @media (max-width: 800px) {
+    .user-container {
+      padding-top: 10rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  
+    th,
+    td {
+      font-size: 10px;
+    }
+  
+    .add-button {
+      padding-left: 10px;
+      padding-right: 10px;
+      border-radius: 10px;
+      height: 40px;
+      margin-top: 10px;
+    }
+  
+    input{
+      padding: 0rem;
+      width: 110px;
+  }
+  }
+  
+  
