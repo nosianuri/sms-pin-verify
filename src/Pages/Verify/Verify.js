@@ -1,9 +1,9 @@
 import { nanoid } from 'nanoid';
 import React, { Fragment, useEffect, useState } from 'react'
-import CreditsEditable from './CreditsEditable';
-import CreditsRow from './CreditsRow';
+import VerifyEditable from './VerifyEditable';
+import VerifyRow from './VerifyRow';
 
-const Credits = () => {
+const Verify = () => {
     const [users, setUsers] = useState([]);
     const [pageCount, setPageCount] = useState(0);
     const [page, setPage] = useState(0);
@@ -125,7 +125,7 @@ const Credits = () => {
   return (
     <>
     <div className='user-container'>
-    <h2 className='text-3xl'>Credit History</h2>
+    <h2 className='text-3xl'>View Verify Status</h2>
     <hr />
     <div className='mt-10'>
       <form onSubmit={handleEditFormSubmit}>
@@ -133,18 +133,18 @@ const Credits = () => {
           <thead>
             <tr className='user-tr'>
               <th>#</th>
-              <th>Order ID</th>
-              <th>Note</th>
-              <th>Price</th>
+              <th>Number</th>
               <th>Date</th>
+              <th>Status</th>
+              <th>Message</th>
             </tr>
           </thead>
           <tbody>
             {users.map((userlist) => (
               <Fragment>
-                {edituserId === userlist._id ? (<CreditsEditable key={userlist._id} editFormData={editFormData} handleEditFormChange={handleEditFormChange} handleCancleClick={handleCancleClick} />
+                {edituserId === userlist._id ? (<VerifyEditable key={userlist._id} editFormData={editFormData} handleEditFormChange={handleEditFormChange} handleCancleClick={handleCancleClick} />
                 ) : (
-                  <CreditsRow key={userlist._id} userlist={userlist} handleEditClick={handleEditClick} handleDeleteClick={handleDeleteClick} />)}
+                  <VerifyRow key={userlist._id} userlist={userlist} handleEditClick={handleEditClick} handleDeleteClick={handleDeleteClick} />)}
               </Fragment>
             ))}
 
@@ -164,19 +164,11 @@ const Credits = () => {
         </div>
       </div>
 
-      <div className='adduser'>
-      <h2>Add a User</h2>
-      <form onSubmit={handleAddFormSubmit}>
-        <input type="number" name='id' required="required" placeholder='Enter a id' />
-        <input type="text" name='name' required="required" placeholder='Enter a name' onChange={handleAddFormChange} />
-        <input type="email" name='email' required="required" placeholder='Enter a email' onChange={handleAddFormChange} />
-        <button className='add-button' type='submit'>Add</button>
-      </form>
-      </div>
+      
     </div>
     
     </>
   )
 }
 
-export default Credits
+export default Verify

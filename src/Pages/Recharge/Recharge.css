@@ -39,19 +39,19 @@
     background-color: #78d0ea;
   }
   
-  form {
+  /* form {
     display: flex;
     gap: 5px;
-  }
+  } */
   
-  form td:last-child {
+  /* form td:last-child {
     display: flex;
     justify-content: space-evenly;
-  }
+  } */
   
-  h2 {
+  /* h2 {
     color: white;
-  }
+  } */
   
   .adduser {
     margin-top: 30px;
@@ -88,12 +88,12 @@
     border-radius: 3px;
   }
   
-  input {
+  /* input {
     margin: 0.5rem 0;
     padding: 1rem;
     border: none;
     border-radius: 10px;
-  }
+  } */
   
   
   
@@ -117,10 +117,10 @@
       margin-top: 10px;
     }
   
-    input{
+    /* input{
       padding: 0rem;
       width: 110px;
-  }
+  } */
   }
   
   

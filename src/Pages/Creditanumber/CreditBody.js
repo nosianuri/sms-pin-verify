@@ -2,9 +2,9 @@ import React from 'react'
 
 const CreditBody = () => {
   return (
-    <div className=' '>
+    <div>
     <div className='shadow-md p-5'>
-        <div className='flex justify-between items-center'>
+        <div className='flex justify-between items-center mb-4'>
             <h3 className='text-2xl'>Your Numbers</h3>
             <input className='px-2 rounded w-46 py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#5bc0de] border-2 border-[#5bc0de]' type="text" placeholder='Search Number' />
         </div>

@@ -128,7 +128,7 @@ const Codes = () => {
     <div className='user-container'>
     <h2 className='text-3xl'>Codes History</h2>
     <hr />
-    <div>
+    <div className='mt-10'>
       <form onSubmit={handleEditFormSubmit}>
         <table className='user-table'>
           <thead>
