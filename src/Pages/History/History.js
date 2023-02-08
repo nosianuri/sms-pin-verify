@@ -1,9 +1,9 @@
+import { nanoid } from 'nanoid';
 import React, { Fragment, useEffect, useState } from 'react'
-import { nanoid } from "nanoid";
-import CodeRow from './CodeRow';
-import CodeEditable from './CodeEditable';
+import HistoryEditable from './HistoryEditable';
+import HistoryRow from './HistoryRow';
 
-const Codes = () => {
+const History = () => {
     const [users, setUsers] = useState([]);
     const [pageCount, setPageCount] = useState(0);
     const [page, setPage] = useState(0);
@@ -122,11 +122,10 @@ const Codes = () => {
       newUsers.splice(index, 1);
       setUsers(newUsers);
     }
-  
   return (
     <>
     <div className='user-container'>
-    <h2 className='text-3xl'>Codes History</h2>
+    <h2 className='text-3xl'>View Top Ups</h2>
     <hr />
     <div>
       <form onSubmit={handleEditFormSubmit}>
@@ -137,17 +136,18 @@ const Codes = () => {
               <th>Number</th>
               <th>App</th>
               <th>Country</th>
+              <th>Balance</th>
+              <th>Deduction</th>
               <th>Time</th>
               <th>Message</th>
-              <th>Action</th>
             </tr>
           </thead>
           <tbody>
             {users.map((userlist) => (
               <Fragment>
-                {edituserId === userlist._id ? (<CodeEditable key={userlist._id} editFormData={editFormData} handleEditFormChange={handleEditFormChange} handleCancleClick={handleCancleClick} />
+                {edituserId === userlist._id ? (<HistoryEditable key={userlist._id} editFormData={editFormData} handleEditFormChange={handleEditFormChange} handleCancleClick={handleCancleClick} />
                 ) : (
-                  <CodeRow key={userlist._id} userlist={userlist} handleEditClick={handleEditClick} handleDeleteClick={handleDeleteClick} />)}
+                  <HistoryRow key={userlist._id} userlist={userlist} handleEditClick={handleEditClick} handleDeleteClick={handleDeleteClick} />)}
               </Fragment>
             ))}
 
@@ -182,4 +182,4 @@ const Codes = () => {
   )
 }
 
-export default Codes
+export default History

@@ -7,8 +7,10 @@ const Navbar = () => {
     
   const menuItems = <>
     <li><Link to="/">Home</Link></li>
-    <li><Link to="/recharge">Recharge</Link></li>
-    <li><Link to="/codes">Codes</Link></li>
+    {/* <li><Link to="/recharge">Recharge</Link></li> */}
+    {/* <li><Link to="/codes">Codes</Link></li> */}
+    {/* <li><Link to="/history">History</Link></li> */}
+    <li><Link to="/credits">Credits</Link></li>
     <li><Link to="/api">API</Link></li>
     <li><Link to="/blog">Blog</Link></li>
     <li><Link to="/contact">Contact Us</Link></li>

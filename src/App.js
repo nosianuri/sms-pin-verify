@@ -6,7 +6,9 @@ import Api from './Pages/Api/Api';
 import Blog from './Pages/Blog/Blog';
 import Codes from './Pages/Codes/Codes';
 import Contact from './Pages/Contact/Contact';
+import Credits from './Pages/Credits/Credits';
 import Faq from './Pages/Faq/Faq';
+import History from './Pages/History/History';
 import Home from './Pages/Home/Home';
 import Login from './Pages/Login/Login';
 import Privacy from './Pages/Privacy/Privacy';
@@ -24,6 +26,8 @@ function App() {
      <Route path="/faqs" element={<Faq />} />
      <Route path="/blog" element={<Blog />} />
      <Route path="/codes" element={<Codes />} />
+     <Route path="/credits" element={<Credits />} />
+     <Route path="/history" element={<History />} />
      <Route path="/recharge" element={<Reacherge />} />
      <Route path="/contact" element={<Contact />} />
      <Route path="/privacy" element={<Privacy />} />
