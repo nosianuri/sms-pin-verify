@@ -6,6 +6,7 @@ import Api from './Pages/Api/Api';
 import Blog from './Pages/Blog/Blog';
 import Codes from './Pages/Codes/Codes';
 import Contact from './Pages/Contact/Contact';
+import CreditNumber from './Pages/Creditanumber/CreditNumber';
 import Credits from './Pages/Credits/Credits';
 import Faq from './Pages/Faq/Faq';
 import History from './Pages/History/History';
@@ -27,6 +28,7 @@ function App() {
      <Route path="/blog" element={<Blog />} />
      <Route path="/codes" element={<Codes />} />
      <Route path="/credits" element={<Credits />} />
+     <Route path="/credit-number" element={<CreditNumber />} />
      <Route path="/history" element={<History />} />
      <Route path="/recharge" element={<Reacherge />} />
      <Route path="/contact" element={<Contact />} />

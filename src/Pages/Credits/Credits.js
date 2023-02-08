@@ -125,7 +125,7 @@ const Credits = () => {
   return (
     <>
     <div className='user-container'>
-    <h2 className='text-3xl'>View Top Ups</h2>
+    <h2 className='text-3xl'>Credit History</h2>
     <hr />
     <div>
       <form onSubmit={handleEditFormSubmit}>
