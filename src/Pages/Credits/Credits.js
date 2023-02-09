@@ -164,7 +164,7 @@ const Credits = () => {
         </div>
       </div>
 
-      <div className='adduser'>
+      {/* <div className='adduser'>
       <h2>Add a User</h2>
       <form onSubmit={handleAddFormSubmit}>
         <input type="number" name='id' required="required" placeholder='Enter a id' />
@@ -172,7 +172,7 @@ const Credits = () => {
         <input type="email" name='email' required="required" placeholder='Enter a email' onChange={handleAddFormChange} />
         <button className='add-button' type='submit'>Add</button>
       </form>
-      </div>
+      </div> */}
     </div>
     
     </>

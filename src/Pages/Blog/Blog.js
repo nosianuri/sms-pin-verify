@@ -8,7 +8,7 @@ const Blog = () => {
             <div className='max-w-7xl mx-auto py-10'>
                 <div className='blogbody'>
                     <div>
-                        <h1 className='text-3xl'>Blog about 5SIM — service for receiving SMS and activating accounts on any site that require SMS verification</h1>
+                        <h1 className='lg:text-3xl text-xl'>Blog about 5SIM — service for receiving SMS and activating accounts on any site that require SMS verification</h1>
                         <BlogCards />
                     </div>
                     <div>

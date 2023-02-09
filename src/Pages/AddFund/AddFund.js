@@ -3,12 +3,12 @@ import React from 'react'
 const AddFund = () => {
     return (
         <div className='bg-[#f8f9fa]'>
-            <div className='max-w-7xl mx-auto '>
+            <div className='max-w-7xl mx-auto px-3'>
                 <div>
                     <h3 className='text-3xl mb-2 pt-8'>Create Top Up</h3>
                     <hr />
                 </div>
-                <div className='px-32 py-10'>
+                <div className='lg:px-32 py-10'>
                     <div className='grid grid-cols-2 gap-5'>
                         <div>
                             <img className='w-10' src="https://i.ibb.co/F8g6WCv/binance.png" alt="" />

@@ -2,11 +2,10 @@ import React from 'react'
 
 const Faq = () => {
     return (
-        <div className='max-w-7xl mx-auto my-10'>
+        <div className='max-w-7xl mx-auto my-10 px-3'>
             <h2 className='text-3xl mb-2'>FAQ</h2>
             <h5 className='text-lg font-semibold
             '>1. How to get started with us?</h5>
-
             <p>Ans: smspinverify.com created keeping in mind for users simple interface. With using smspinverify.com you can verify any networks like Gmail,Facebook, Instagram,Tinder,Skout,Kakao, etc in just few minutes.Just register and Top UP Your account .</p>
             <h5 className='text-lg font-semibold mt-2
             '>2. Okay I understand to add credits then what?</h5>

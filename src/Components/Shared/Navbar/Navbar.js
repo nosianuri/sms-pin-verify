@@ -7,7 +7,7 @@ const Navbar = () => {
     
   const menuItems = <>
     <li><Link to="/">Home</Link></li>
-    {/* <li><Link to="/recharge">Recharge</Link></li> */}
+    <li><Link to="/recharge">Recharge</Link></li>
     {/* <li><Link to="/codes">Codes</Link></li> */}
     {/* <li><Link to="/history">History</Link></li> */}
     {/* <li><Link to="/credits">Credits</Link></li> */}
@@ -15,7 +15,7 @@ const Navbar = () => {
     {/* <li><Link to="/add-fund">Add Fund</Link></li> */}
     {/* <li><Link to="/verify">Verify</Link></li> */}
     {/* <li><Link to="/support">Support</Link></li> */}
-    <li><Link to="/settings">My Account</Link></li>
+    {/* <li><Link to="/settings">My Account</Link></li> */}
     <li><Link to="/api">API</Link></li>
     <li><Link to="/blog">Blog</Link></li>
     <li><Link to="/contact">Contact Us</Link></li>
@@ -35,7 +35,7 @@ const Navbar = () => {
             {menuItems}
           </ul>
         </div>
-        <a href='/' className="normal-case text-xl"><img src={sms} alt="" /></a>
+        <a href='/'><img src={sms} alt="" /></a>
       </div>
       <div className="navbar-end hidden lg:flex mr-10">
         <ul className="menu menu-horizontal p-0">

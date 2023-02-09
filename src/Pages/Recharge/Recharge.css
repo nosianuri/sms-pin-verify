@@ -100,13 +100,13 @@
   @media (max-width: 800px) {
     .user-container {
       padding-top: 10rem;
-      padding-left: 2rem;
-      padding-right: 2rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
     }
   
     th,
     td {
-      font-size: 10px;
+      font-size: 8px;
     }
   
     .add-button {
