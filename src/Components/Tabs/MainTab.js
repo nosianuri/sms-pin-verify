@@ -4,7 +4,7 @@ const MainTab = () => {
   return (
     <div className=''>
         <h2 className='text-center font-semibold mb-2'>Virtual numbers for SMS receiving online and SMS verification bypass</h2>
-        <p>When registering on social networks, messengers and on other sites, an SMS verification of account is required. 5SIM provides the opportunity to bypass SMS verification procedure with the help of a temporary virtual phone number without using the personal one. By purchasing virtual numbers for SMS receiving and for activating any site or app, you will register many profiles on websites by receiving a confirmation code online.</p>
+        <p className='!text-ellipsis'>When registering on social networks, messengers and on other sites, an SMS verification of account is required. 5SIM provides the opportunity to bypass SMS verification procedure with the help of a temporary virtual phone number without using the personal one. By purchasing virtual numbers for SMS receiving and for activating any site or app, you will register many profiles on websites by receiving a confirmation code online.</p>
         <p className='mt-1'>By using the SMS verification service 5SIM:</p>
         <ul className='ul-article'>
             <li>You can get SMS online 24/7. This is a fully automated service: the receipt of a text message with a verification code happens instantaneously.</li>

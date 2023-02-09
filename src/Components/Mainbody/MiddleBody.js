@@ -53,7 +53,7 @@ const MiddleBody = () => {
                 
             </div>
 
-            <div className="content-tabs">
+            <div className="content-tabs ">
                 <div
                     className={toggleState === 1 ? "content  active-content" : "content"}
                 >

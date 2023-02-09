@@ -81,9 +81,9 @@
   }
   
   .pagination button {
-    margin-right: 30px;
+    margin-right: 10px;
     background-color: white;
-    border: 1px solid white;
+    border: 1px solid rgb(33, 122, 190);
     padding: 5px;
     border-radius: 3px;
   }
