@@ -5,6 +5,7 @@ import Manual from '../Tabs/Manual';
 import NewsTab from '../Tabs/NewsTab';
 import Referrals from '../Tabs/Referrals';
 import RulesTab from '../Tabs/RulesTab';
+import Service from '../Tabs/Service';
 import SupportTab from '../Tabs/SupportTab';
 import './MainBody.css';
 
@@ -15,7 +16,7 @@ const MiddleBody = () => {
         setToggleState(index);
     };
   return (
-    <div className="right-container ">
+    <div className="right-container lg:mt-0 mt-5">
             <div className="bloc-tabs">
                 <button
                     className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
@@ -36,30 +37,20 @@ const MiddleBody = () => {
                 >
                     Manual
                 </button>
+                
                 <button
                     className={toggleState === 4 ? "tabs active-tabs" : "tabs"}
                     onClick={() => toggleTab(4)}
                 >
-                    Rules
+                    Service
                 </button>
                 <button
                     className={toggleState === 5 ? "tabs active-tabs" : "tabs"}
                     onClick={() => toggleTab(5)}
                 >
-                    Referrals
-                </button>
-                <button
-                    className={toggleState === 6 ? "tabs active-tabs" : "tabs"}
-                    onClick={() => toggleTab(6)}
-                >
                     Support
                 </button>
-                <button
-                    className={toggleState === 7 ? "tabs active-tabs" : "tabs"}
-                    onClick={() => toggleTab(7)}
-                >
-                    Free
-                </button>
+                
             </div>
 
             <div className="content-tabs">
@@ -99,27 +90,19 @@ const MiddleBody = () => {
                 >
                     <Manual />
                 </div>
+                
                 <div
                     className={toggleState === 4 ? "content  active-content" : "content"}
                 >
-                    <RulesTab />
+                    
+                   <Service />
                 </div>
                 <div
                     className={toggleState === 5 ? "content  active-content" : "content"}
                 >
-                    
-                   <Referrals />
-                </div>
-                <div
-                    className={toggleState === 6 ? "content  active-content" : "content"}
-                >
                     <SupportTab />
                 </div>
-                <div
-                    className={toggleState === 7 ? "content  active-content" : "content"}
-                >
-                    <FreeTab />
-                </div>
+                
             </div>
         </div>
   )

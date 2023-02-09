@@ -1,0 +1,27 @@
+#myBtn {
+    /* display: none; */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    background-color: #999;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+}
+.icon{
+    animation: gototop 1.2s linear infinite alternate-reverse;
+}
+
+@keyframes gototop {
+    0% {
+        transform: translateY(-0.5rem);
+    }
+    100% {
+        transform: translateY(1rem);
+    }
+}

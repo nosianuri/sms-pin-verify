@@ -102,4 +102,8 @@ button {
   .mainbody {
     display: block;
   }
+  .tabs {
+    padding: 2px;
+    font-size: 12px;
+  }
 }

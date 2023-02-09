@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Footer from './Components/Shared/Footer/Footer';
+import GoToTop from './Components/Shared/Footer/GoToTop';
 import Navbar from './Components/Shared/Navbar/Navbar';
 import AddFund from './Pages/AddFund/AddFund';
 import Api from './Pages/Api/Api';
@@ -45,6 +46,7 @@ function App() {
      <Route path="/registration" element={<Regestration />} />
      <Route path="/verify" element={<Verify />} />
      </Routes>
+     <GoToTop />
      <Footer />
     </div>
   );
