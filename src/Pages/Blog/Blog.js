@@ -15,11 +15,11 @@ const Blog = () => {
                         <div className='bg-white shadow-xl p-5'>
                             <h2>Recent Posts</h2>
                             <ul className='ul-article'>
-                                <li>Brazil virtual numbers</li>
-                                <li>How to create a Classic Rummy account without a phone number</li>
-                                <li>How to create a Dahadaha account without a phone number</li>
-                                <li>How to create a Mail.ru account without a phone number</li>
-                                <li>How to create an Eneba account without a phone number</li>
+                                <li><a className='hover:text-[#5bc0de]' href="/">Brazil virtual numbers</a></li>
+                                <li><a className='hover:text-[#5bc0de]' href="/">How to create a Classic Rummy account without a phone number</a></li>
+                                <li><a className='hover:text-[#5bc0de]' href="/">How to create a new account without a phone number</a></li>
+                                <li><a className='hover:text-[#5bc0de]' href="/">How to create a Mail.ru account without a phone number</a></li>
+                                <li><a className='hover:text-[#5bc0de]' href="/">How to create an Eneba account without a phone number</a></li>
                             </ul>
                         </div>
                     </div>

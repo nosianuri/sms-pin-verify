@@ -13,14 +13,15 @@ const Navbar = () => {
     {/* <li><Link to="/credits">Credits</Link></li> */}
     {/* <li><Link to="/credit-number">Credits: $0.00</Link></li> */}
     {/* <li><Link to="/add-fund">Add Fund</Link></li> */}
-    <li><Link to="/verify">Verify</Link></li>
+    {/* <li><Link to="/verify">Verify</Link></li> */}
     {/* <li><Link to="/support">Support</Link></li> */}
+    <li><Link to="/settings">My Account</Link></li>
     <li><Link to="/api">API</Link></li>
     <li><Link to="/blog">Blog</Link></li>
     <li><Link to="/contact">Contact Us</Link></li>
     <li><Link to="/faqs">FAQs</Link></li>
     <li className=" bg-[#4DAFFF] text-white py-1"> <Link to="/login">Login</Link></li>
-    <li className=" bg-[#5bc0de] text-white py-1"> <Link to="/registration">Registration</Link></li>
+    <li className=" bg-[#5bc0de] text-white py-1"> <Link to="/registration">Sign Up</Link></li>
   </>
 
   return (

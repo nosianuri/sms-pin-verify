@@ -13,6 +13,7 @@ import Faq from './Pages/Faq/Faq';
 import History from './Pages/History/History';
 import Home from './Pages/Home/Home';
 import Login from './Pages/Login/Login';
+import MyAccount from './Pages/MyAccount/MyAccount';
 import Privacy from './Pages/Privacy/Privacy';
 import Reacherge from './Pages/Recharge/Reacherge';
 import Regestration from './Pages/Regestration/Regestration';
@@ -40,6 +41,7 @@ function App() {
      <Route path="/support" element={<Support />} />
      <Route path="/terms" element={<Terms />} />
      <Route path="/login" element={<Login />} />
+     <Route path="/settings" element={<MyAccount />} />
      <Route path="/registration" element={<Regestration />} />
      <Route path="/verify" element={<Verify />} />
      </Routes>
